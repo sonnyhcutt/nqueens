@@ -1,0 +1,25 @@
+# Build output
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+puzzles
+puzzles_tests
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Saved game boards
+*.board
